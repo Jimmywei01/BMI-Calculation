@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheect" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,700i"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header"> 
+      <div class="container">
+        <div class="logo"><img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI.JPG?raw=true" alt="none"/></div>
+        <div class="data">
+          <p>身高 cm</p>
+          <input type="text" maxlength="3" placeholder="請輸入身高" class="height"/>
+          <p>體重 kg</p>
+          <input type="text" maxlength="4" placeholder="請輸入體重" class="weight"/>
+        </div>
+        <div class="btnStatus">
+          <button type="button" class="button default"><span class="click">Click!</span>
+            <p class="value"></p>
+            <p class="bmi"></p>
+            <div class="circular"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="clearfix">
+      <div class="container clearfix">
+        <p>BMI 紀錄 </p>
+        <ul class="list clearfix"></ul>
+      </div>
+    </div>
+    <div id="footer" class="clearfix">
+      <div class="logo"><img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI2.JPG?raw=true" alt="none"/></div>
+    </div>
+  </body>
+  <script src="js/BMI2.js">       </script>
+</html>
